@@ -185,16 +185,8 @@ progress::-webkit-progress-value {
   background-color: #de2b2b;
 }
 
-.redButton:hover {
-  background-color: #f17a7a;
-}
-
 .greenButton {
   background-color: #3eaf2c;
-}
-
-.greenButton:hover {
-  background-color: #83eb73;
 }
 
 .results_screen img {
