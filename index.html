@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Quiz Test</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="welcome_screen" class="welcome_screen">
+        <img src="./assets/images/Frame.png" alt="Image Title" />
+        <p class="welcome_title">Welcome to the trivia Challenge</p>
+        <p class="presented_title">
+          You will presented with 10 True or False question
+        </p>
+        <p class="question_title">Can you score 100%?</p>
+        <button id="btnBegin" class="btnBegin" onclick="beginGame()">
+          Let's play!
+        </button>
+      </section>
+      <section id="questions_screen" class="questions_screen hide">
+        <section class="progress_section">
+          <div class="counter_section">
+            <p id="category_question" class="category_question"></p>
+            <p id="counter" class="counter"></p>
+          </div>
+          <progress
+            id="progressBar"
+            class="progressBar"
+            max="100"
+            min="0"
+            value="0"
+          ></progress>
+        </section>
+        <section class="question_section">
+          <img id="category_icon" class="category_icon" alt="Category Icon" />
+          <p id="current_question" class="current_question"></p>
+          <button id="true" class="button greenButton" data-answer="True">
+            True
+          </button>
+          <button id="false" class="button redButton" data-answer="False">
+            False
+          </button>
+        </section>
+      </section>
+      <section id="results_screen" class="results_screen hide">
+        <img src="./assets/images/Frame.png" alt="Image Title" />
+        <section id="score_section" class="score_section">
+          <p class="score_section-title">Your final score</p>
+          <p id="score_percent" class="score_percent"></p>
+          <p id="score_counter" class="score_counter"></p>
+        </section>
+        <button id="play_again" class="play_again">Let's play again!</button>
+        <section id="results_section" class="results_section">
+          <p class="results_section-title">Your answers</p>
+          <section id="results_container"></section>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Made with 💡 by
+        <a
+          href="https://github.com/MauricioJCarrillo/3.curso_mobile_first-batata_bit_platzi"
+          >@MauricioJCarrillo</a
+        >
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
