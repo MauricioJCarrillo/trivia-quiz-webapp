@@ -1,12 +1,12 @@
-# Quiz Test Project:
+# Trivia quiz webapp
 
-This a technical test using HTML, CSS and JavaScript Vanilla.
+This is a webapp project using HTML, CSS and JavaScript Vanilla.
 
-## GitHub Pages:
+## GitHub Pages
 
-[Practice - Quiz Test](https://mauriciojcarrillo.github.io/22.quiz-app-geniality)
+[Trivia quiz webapp](https://mauriciojcarrillo.github.io/trivia-quiz-webapp)
 
-## Technologies and concepts:
+## Technologies and concepts
 
 - HTML.
 - CSS.
